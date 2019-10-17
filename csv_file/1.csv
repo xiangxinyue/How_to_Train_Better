@@ -1,0 +1,7 @@
+﻿Date,Tournament,Opponent,Outcome,TeamPoints,TeamPointsAllowed,Latitude,Longitude,WinningPercentage,Total,Winning Rate
+11,Dubai,Spain,W,19,0,40.463669,-3.74922,100%,19,1
+11,Dubai,Ireland,W,31,0,53.41291,-8.24389,100%,31,1
+11,Dubai,Fiji,W,31,14,-17.713371,178.065033,69%,45,0.688888889
+12,Dubai,France,W,24,19,46.227638,2.213749,56%,43,0.558139535
+12,Dubai,Australia,L,7,25,-25.274399,133.775131,78%,32,0.78
+12,Dubai,Russia,L,5,10,61.52401,105.318756,67%,15,0.67

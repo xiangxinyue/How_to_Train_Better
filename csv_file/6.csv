@@ -1,0 +1,5 @@
+﻿Date,Tournament,Opponent,Outcome,TeamPoints,TeamPointsAllowed,Latitude,Longitude,WinningPercentage,Total,Winning Rate
+7,World Cup,Brazil,W,43,19,-14.235004,-51.925282,69%,62,0.693548387
+7,World Cup,France,L,19,24,46.227638,2.213749,56%,43,0.56
+7,World Cup,Spain,L,14,26,40.463669,-3.74922,65%,40,0.65
+7,World Cup,Russia,W,22,10,61.52401,105.318756,69%,32,0.6875

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_5a7f75f64fc14adb996518cd7e5a7dfa {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_5a7f75f64fc14adb996518cd7e5a7dfa" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_5a7f75f64fc14adb996518cd7e5a7dfa = L.map(
+        'map_5a7f75f64fc14adb996518cd7e5a7dfa', {
+        center: [100, 0],
+        zoom: 1.5,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+
+    
+    var tile_layer_09003ae356654d1295b2c01f635a227a = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_5a7f75f64fc14adb996518cd7e5a7dfa);
+    
+
+            var circle_8ce556ea090b4b0682652d27264d4fc7 = L.circle(
+                [-14.235004, -51.925282],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 277419.3548,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_5a7f75f64fc14adb996518cd7e5a7dfa);
+            
+    
+            var popup_553756ce48f84c70a753f6ea79502c3c = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_af0939bdcde14f5892ca953c87c646d8 = $(`<div id="html_af0939bdcde14f5892ca953c87c646d8" style="width: 100.0%; height: 100.0%;">Brazil <br> W  <br> 43:19 <br> 69%</div>`)[0];
+                popup_553756ce48f84c70a753f6ea79502c3c.setContent(html_af0939bdcde14f5892ca953c87c646d8);
+            
+
+            circle_8ce556ea090b4b0682652d27264d4fc7.bindPopup(popup_553756ce48f84c70a753f6ea79502c3c)
+            ;
+
+            
+        
+    
+
+            var circle_798f9102c26f4118a8f03d80bb723f0d = L.circle(
+                [46.227638, 2.213749],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 224000.00000000003,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_5a7f75f64fc14adb996518cd7e5a7dfa);
+            
+    
+            var popup_1ecd4cc9ab484c74b46eefde91b45ef5 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_d1e8fa832f6942eaaee46ac3b93e8a3b = $(`<div id="html_d1e8fa832f6942eaaee46ac3b93e8a3b" style="width: 100.0%; height: 100.0%;">France <br> L  <br> 19:24 <br> 56%</div>`)[0];
+                popup_1ecd4cc9ab484c74b46eefde91b45ef5.setContent(html_d1e8fa832f6942eaaee46ac3b93e8a3b);
+            
+
+            circle_798f9102c26f4118a8f03d80bb723f0d.bindPopup(popup_1ecd4cc9ab484c74b46eefde91b45ef5)
+            ;
+
+            
+        
+    
+
+            var circle_2514cedd1a39480a99b1f217a4051f3f = L.circle(
+                [40.463669, -3.7492199999999998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 260000.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_5a7f75f64fc14adb996518cd7e5a7dfa);
+            
+    
+            var popup_0ca61f6adfa74c94b05257d2e0970022 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ca8b8143784f4aacbbc0518f4c5a3ccc = $(`<div id="html_ca8b8143784f4aacbbc0518f4c5a3ccc" style="width: 100.0%; height: 100.0%;">Spain <br> L  <br> 14:26 <br> 65%</div>`)[0];
+                popup_0ca61f6adfa74c94b05257d2e0970022.setContent(html_ca8b8143784f4aacbbc0518f4c5a3ccc);
+            
+
+            circle_2514cedd1a39480a99b1f217a4051f3f.bindPopup(popup_0ca61f6adfa74c94b05257d2e0970022)
+            ;
+
+            
+        
+    
+
+            var circle_0f232360b1fb4d52a9de4210dedbc0e4 = L.circle(
+                [61.52401, 105.31875600000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 275000.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_5a7f75f64fc14adb996518cd7e5a7dfa);
+            
+    
+            var popup_cb141135e1c74e259810521de6489fa1 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_9c52b9fc3e0f4bf1a67e6c3b7f12e6ca = $(`<div id="html_9c52b9fc3e0f4bf1a67e6c3b7f12e6ca" style="width: 100.0%; height: 100.0%;">Russia <br> W  <br> 22:10 <br> 69%</div>`)[0];
+                popup_cb141135e1c74e259810521de6489fa1.setContent(html_9c52b9fc3e0f4bf1a67e6c3b7f12e6ca);
+            
+
+            circle_0f232360b1fb4d52a9de4210dedbc0e4.bindPopup(popup_cb141135e1c74e259810521de6489fa1)
+            ;
+
+            
+        
+</script>

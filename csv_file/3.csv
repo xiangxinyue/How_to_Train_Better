@@ -1,0 +1,6 @@
+﻿Date,Tournament,Opponent,Outcome,TeamPoints,TeamPointsAllowed,Latitude,Longitude,Winning/Lose Percentage,WinningPercentage,Total,Winning Rate
+4,Commonwealth,South Africa,W,29,0,-30.559483,22.937506,100%,100%,29,1
+4,Commonwealth,Kenya,W,24,12,-0.023559,37.906193,67%,67%,36,0.666666667
+4,Commonwealth,New Zealand,L,7,24,-40.900558,174.885971,77%,23%,31,0.77
+4,Commonwealth,Australia,L,7,33,-25.274399,133.775131,83%,18%,40,0.83
+4,Commonwealth,England,L,19,24,52.355518,-1.17432,56%,44%,43,0.56
